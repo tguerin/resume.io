@@ -3,219 +3,152 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Thomas Guerin
+  tagline: Flutter/Android Freelancer
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: contact@7omtech.fr
+  timezone: Europe/Paris
+  citizenship: French
+  website: 7omtech.fr #do not add http://
+  linkedin: thomas-guerin-6233a76b
+  github: tguerin
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: '@Tom404_'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: https://resume.7omtech.fr/downloads/resume.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: French
+        level: Native
 
-        - idiom: French
-          level: Professional
+      - idiom: English
+        level: Professional
 
-        - idiom: Spanish
-          level: Professional
+      - idiom: Spanish
+        level: Intermediate
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Motorcycle racing
+        link: "https://www.youtube.com/watch?v=IUAbK3MvvHo"
 
-        - item: Snowboarding
-          link:
+      - item: Gaming
+        link:
 
-        - item: Cooking
-          link:
+      - item: Travel
+        link: "https://www.instagram.com/travelandlife.fr/"
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    Since 2013, I've specialized in Android development and later expanded my expertise to include Flutter, fueling my passion for crafting high-quality mobile applications. 
+    
+    As a problem-solver with intrinsic motivation and a team-oriented mindset, I'm always expanding my knowledge base to meet and exceed technical challenges. Sharing this newfound knowledge to uplift my colleagues and contribute to a learning culture is a rewarding aspect of my professional journey.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: Software Engineer
+      university: École des Mines de Nantes
+      time: 2005 - 2009
+    - degree: Software Engineer
+      university: Universidad Politécnica de Madrid
+      time: 2007 - 2008
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiences
+  info:
+    - role: World Traveler
+      time: june 2022 - june 2023
+      company: World
+      details: |
+        Undertook a year-long, global expedition visiting 17 countries, cultivating adaptability, cultural sensitivity and resourcefulness while fulfilling a personal aspiration. This enriching experience fostered a broader perspective, further enhancing my problem-solving and interpersonal skills, valuable assets in any professional setting.
+    - role: Senior Android Developer
+      time: oct. 2018 - may 2022
+      company: Zenly, Paris
+      details: |
+        Worked as a Senior Android Developer at Zenly for three years, where my contributions included leading one major app rewrite and developing an in-house A/B testing technology. 
+        I was responsible for implementing numerous performance-centric features, drawing on advanced Android knowledge. I hold a particular interest and involvement in enhancing user experience, aiming to create intuitive and user-friendly interfaces that facilitate optimal interactions.
+    - role: Lead Developer
+      time: oct. 2015 - oct. 2018
+      company: Deezer, Paris
+      details: |
+        Led the Android team at Deezer within the Open Platform division, focusing on extending Deezer's ecosystem through strategic partnerships. Ensured high-quality, scalable codebase, streamlined production processes and crafted solutions to complex problems to deliver optimal partner outcomes.
+    - role: Android / Java Software Craftsman
+      time: dec. 2011 - oct. 2015
+      company: Xebia, Paris
+      details: |
+        Worked as a Java/Android Developer at Xebia, actively participating in conferences centered around mobile application quality and testing. I successfully led three key Android projects, including notable ventures into PMU horse racing and sports betting applications.
+
+    - role: Java/Flex Developer
+      time: sep. 2009 - dec. 2011
+      company: Steria, Paris
+      details: |
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+  assignments:
+    - title: Factify Facts
+      link: "https://factify.7omtech.fr"
+      tagline: "A cross-platform Flutter application providing engaging and educational content, available on both iOS and Android platforms."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Alchemy Sdk Kotlin
+      link: "https://github.com/tguerin/alchemy-sdk-kotlin"
+      tagline: "An all-inclusive Kotlin Multiplatform SDK designed for seamless interaction with the Alchemy API."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Flutter Playground
+      link: "https://github.com/tguerin/flutter_playground"
+      tagline: "A comprehensive application used as a practical reference in the production of insightful Flutter-based articles."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Conference Companion
+      link: "#"
+      tagline: "A supplementary Android application dedicated to enhancing the Devoxx conference experience, actively developed up until 2015."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  papers:
+    - title: 7om Tech Blog
+      link: "https://7omtech.fr/#blog"
+      authors: Thomas G.
+      conference: "A focused weekly blog, offering deep-dive articles and insights on Flutter/Android development"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: "Firebase : Realtime Apps"
+      link: "https://www.programmez.com/magazine/article/firebase-realtime-apps"
+      author: "Programmez.com"
+      conference: "My conference talk on ‘Firebase: Realtime Apps’ at Devoxx 2015 was featured in an article, outlining the power and utility of Firebase in developing real-time applications."
+
+    - title: "From smartphone to tablet apps on iOS and Android"
+      link: "#"
+      authors: Simone C., Thomas G.
+      conference: "A comprehensive guide on transitioning from mobile to tablet application development, highlighting best practices and design considerations."
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Flutter
+      level: 75%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Android
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Kotlin
+      level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: Kotlin Multi Platform
+      level: 60%
